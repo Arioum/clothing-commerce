@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <>
       <div className="navigation">
-        <Link clSassName="logo-container" to="/">
+        <Link className="logo-container" to="/">
           <CClogo className="logo" />
         </Link>
         <div className="nav-links-container">
